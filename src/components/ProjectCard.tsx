@@ -3,13 +3,13 @@ import { type Project } from '../data/projects';
 
 export function ProjectCard({ project }: { project: Project }) {
   return (
-    <article className="card overflow-hidden group">
-      <div className="aspect-[16/9] relative overflow-hidden">
+    <article className="overflow-hidden group">
+      <div className="aspect-[16/9] relative overflow-hidden border-0 ring-0 shadow-none">
         <Image
           src={project.image}
           alt={project.title}
           fill
-          className="object-cover project-image transition-transform duration-300 ease-out group-hover:scale-105 will-change-transform"
+          className="object-cover project-image transition-transform duration-300 ease-out group-hover:scale-105 will-change-transform border-0 ring-0 shadow-none"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </div>

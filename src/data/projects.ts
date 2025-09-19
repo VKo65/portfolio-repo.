@@ -9,30 +9,30 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Layered AI (Webeet.io)",
+    title: "Seelenfreund – KI-Begleiter für Demenzpflege",
     description:
-      "Implemented LLM orchestration to generate neighborhood scores and visualized them as a choropleth on a map-centric interface. Built BFF endpoints to orchestrate data for SSR React views.",
-    tags: ["RAG", "LLM", "MapLibre", "Fastify", "React (SSR)", "TypeScript"],
-    image: "/images/project-placeholder.svg",
-    link: undefined,
-    repo: undefined,
+      "Konzeption & Entwicklung eines multimodalen KI-Systems (Sprache, Bild, Musik, Text) zur Unterstützung von Pflegepersonal und zur Steigerung des Wohlbefindens von Menschen mit Demenz. Architektur mit Python, APIs und LLMs; Pilotphase in Seniorenheimen geplant.",
+    tags: ["Python", "LLMs", "APIs", "Automation"],
+    //image: "/images/project-seelenfreund.png",
+    link: "", // später optional Landingpage
+    repo: "", // privat lassen oder GitHub-Link
   },
   {
-    title: "Instagram Clone",
+    title: "Bad Jokers – Hackathon Siegerprojekt",
     description:
-      "Full-stack social media clone with React Router v7, Fastify backend, Zod validation, and comprehensive Jest TDD testing. Features include user authentication, post creation, real-time likes/comments, and responsive design.",
-    tags: ["React Router v7", "Fastify", "Zod", "Jest", "TDD", "TypeScript"],
-    image: "/images/project-placeholder.svg",
-    link: "#",
-    repo: "#",
+      "Leitung eines 4-köpfigen Teams; humorvolle Web-Plattform mit Python, Flask & SQLite. REST-API und Datenbankmodell unter Zeitdruck umgesetzt. Gewürdigt für Kreativität, Teamarbeit und technische Umsetzung.",
+    tags: ["Python", "Flask", "SQLite"],
+    //image: "/images/project-badjokers.png",
+    link: "",
+    repo: "https://github.com/VKo65/Hackathon_BadJokers",
   },
   {
-    title: "Testing Platform & CI Stability",
+    title: "AI & Data Science Projekte (Masterschool)",
     description:
-      "Authored comprehensive Jest unit/integration tests and Playwright E2E suites with fixtures. Set up Pytest for Python services and smoke checks to stabilize CI pipelines.",
-    tags: ["Playwright", "Jest", "Pytest", "Selenium"],
-    image: "/images/project-placeholder.svg",
-    link: "#",
-    repo: "#",
+      "Automatisierungen mit n8n (z.B. E-Mail-Analyse & Reporting), Prototyping von RAG-Systemen, Prompt Engineering, Integration von OpenAI-APIs in Prozesse. Fokus auf praxisnahe, schnelle Umsetzung.",
+    tags: ["n8n", "RAG", "OpenAI", "Python"],
+    //image: "/images/project-masterschool.png",
+    link: "",
+    repo: "",
   },
 ];
